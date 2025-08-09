@@ -31,6 +31,7 @@ body{
 #scr{
    height: 7.625rem;
    width: 100%;
+   font-size: 4rem;
    text-align: right;
    color: whitesmoke;
    background-color: transparent;

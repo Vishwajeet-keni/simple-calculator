@@ -1,4 +1,78 @@
 *{
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   background-color: lightgrey;
+}
+
+#body{
+   max-width: 425px;
+   justify-content: center;
+   border: 0.0625rem gray solid;
+   border-radius: 0.625rem;
+   background: linear-gradient(45deg, #111212, #2a313a);
+   box-shadow: 1rem 1rem 4rem;
+   
+}
+
+#display{
+   margin-top: 0.3125rem ;
+   padding: 0.625rem;
+   margin-bottom: 0.625rem ;
+}
+
+#scr{
+   height: 7.625rem;
+   width: 100%;
+   text-align: right;
+   color: whitesmoke;
+   background-color: transparent;
+   overflow: hidden;
+   border-radius: 0.625rem;
+}
+
+#keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.625rem;
+  padding: 0.625rem;
+}
+
+button{
+   width: 5rem;
+   height: 5rem;
+   font-size: 2rem;
+   color: whitesmoke;
+   border: none;
+   border-radius: 2.5rem;
+   background-color: transparent;
+   box-shadow: -0.25625rem -0.25625rem 0.15625rem rgba(220, 220, 220, 0.15625);
+   cursor: pointer;
+}
+button:hover{
+   background-color: rgba(225, 225, 225, 0.08125);
+}
+button:active{
+   background-color: rgba(225, 225, 225, 0.15625);
+}
+
+.speB{
+   color: #6dee0a ;
+}
+
+.oprB{
+   background-color: #fb7c14;
+}
+.oprB:hover{
+ background-color: #fb8727;
+}
+.oprB:active{
+   background-color: #fc9039;
 }

@@ -9,34 +9,38 @@
 </head>
 
 <body>
+  <div id="body">
+    <div id="display">
+      <input id="scr" type="text"  readonly> <!--scr = screen  -->
+    </div>
+    <div id="keys">
+      <button onclick="AC()" class="speB">AC</button>  <!-- speB = special button -->
+      <button onclick="DEL()" class="speB">DEL</button>
+      <button onclick="putToDisplay()" class="speB">%</button>
+      <button onclick="putToDisplay()" class="oprB">÷</button>  <!-- oprB = operandi Button -->
+
+      <button onclick="putToDisplay()">7</button>
+      <button onclick="putToDisplay()">8</button>
+      <button onclick="putToDisplay()">9</button>
+      <button onclick="putToDisplay()" class="oprB">x</button>
     
-</body>
-  <input id="display" type="text"  readonly>
-  <div id="keys">
-    <button>AC</button>
-    <button>DEL</button>
-    <button>%</button>
-    <button>÷</button>
+      <button onclick="putToDisplay()">4</button>
+      <button onclick="putToDisplay()">5</button>
+      <button onclick="putToDisplay()">6</button>
+      <button onclick="putToDisplay()" class="oprB">-</button>
 
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-    <button>x</button>
-    
-    <button>4</button>
-    <button>5</button>
-    <button>6</button>
-    <button>-</button>
-
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>+</button>
-
-    <button>00</button>
-    <button>0</button>
-    <button>.</button>
-    <button>=</button>
-
+      <button onclick="putToDisplay()">1</button>
+      <button onclick="putToDisplay()">2</button>
+      <button onclick="putToDisplay()">3</button>
+      <button onclick="putToDisplay()" class="oprB">+</button>
+  
+      <button onclick="putToDisplay()">00</button>
+      <button onclick="putToDisplay()">0</button>
+      <button onclick="putToDisplay()">.</button>
+      <button onclick="clearDisplay()" class="oprB">=</button>
+    </div>
   </div>
+ <script src="script.js"></script>
+</body>
+  
 </html>
